@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #2091f9;
+  --txt-color: #252b42;
+  --txt-second-color: #374754;
+  --white: #fff;
+  --grey: #ddd;
+  --dark: #3f3b38;
+  --dark-bg: #252b42;
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Kanit", sans-serif;
+  overflow-x: hidden;
+
+}
+/****************************
+   font-size:
+   10/12/14/16/18/20/24/30/36/44/52/62/74/86/98 
+   ****************************/
+/****************************
+  whitespace:
+  2/4/8/12/16/24/32/48/64/80/96/128 
+  ****************************/
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  background-color: var(--app-bg);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.primary__title {
+  color: var(--txt-color);
+  font-family: var(--primary-font);
+  font-size: 4.8rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.secondary__title {
+  color: var(--txt-color);
+  font-family: var(--secondary-font);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.primary__txt {
+  color: var(--txt-second-color);
+  font-family: var(--primary-font);
+  font-size: 2.4rem;
+  line-height: 1.4;
+  font-weight: 600;
+
+}
+
+.secondary__txt {
+  color: var(--txt-second-color);
+  font-family: var(--primary-font);
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.btn {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-family: var(--primary-font);
+  border: none;
+  border-radius: 4rem;
+  font-weight: 600;
+  padding: 1.2rem 4.8rem;
+  font-size: 1.8rem;
+  margin-top: 1.4rem;
+transition: all 0.5ms ease-in-out;
+}
+.btn:hover{
+background-color:var(--white);
+box-shadow: 0 0 0 2.5px var(--primary-color);
+color: var(--primary-color);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.grid{
+  display: grid;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.grid--2--col{
+  grid-template-columns: repeat(2 , 1fr);
+}
+.grid--3--col{
+  grid-template-columns: repeat(3 , 1fr);
+}
+
+.grid--4--col {
+    grid-template-columns: repeat(4, 1fr);
+}

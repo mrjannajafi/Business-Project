@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./design/reset.css" />
+    <link rel="stylesheet" href="design/general.css" />
+    <link rel="stylesheet" href="./design/style.css" />
+    <link rel="stylesheet" href="./design/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-open">
+        <!--
+         ===================
+         menu-section
+         ===================
+          -->
+        <div class="header-menu flex ">
+          <nav class="main-nav-list ">
+            <ul class="main-list flex">
+              <li><a href="#" class="main-nav-link">Home</a></li>
+              <li><a href="#" class="main-nav-link">Product </a></li>
+              <li><a href="#" class="main-nav-link">Pricing </a></li>
+              <li><a href="#" class="main-nav-link">About </a></li>
+              <li><a href="#" class="main-nav-link login_btn">Contact </a></li>
+              <li>
+                <a href="#" class="main-nav-link "
+                  ><img src="./image/center.png" alt="header_logo"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-icon flex">
+            <ion-icon name="logo-facebook" class="header-icon"></ion-icon>
+            <ion-icon name="logo-twitter" class="header-icon"></ion-icon>
+            <ion-icon name="logo-linkedin" class="header-icon"></ion-icon>
+          </div>
+          <button class="btn-mobile-nav">
+            <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+            <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+          </button>
+        </div>
+        <!--
+         ===================
+         hero-section
+         ===================
+          -->
+        <div class="hero__section flex">
+          <h1 class="hero__title">The best products start with Figma</h1>
+          <p class="hero__txt">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <a href="#" class="btn hero__btn">Try For Free</a>
+        </div>
+      </div>
+    </header>
+    <main class="main-container">
+      <!--
+         ===================
+        features-section
+         ===================
+          -->
+
+      <section class="features">
+        <h2 class="primary__title features__title">features</h2>
+        <p class="features__txt primary__txt">
+          Most calendars are designed for teams. <br />
+          Slate is designed for freelancers
+        </p>
+        <!-- ========== -->
+        <div class="feature__card flex">
+          <div class="feature flex">
+            <div class="feature__img">
+              <svg
+                width="47"
+                height="47"
+                viewBox="0 0 47 47"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.6042 0.625C18.3117 0.625 21.8673 2.0978 24.4889 4.7194C27.1105 7.34101 28.5833 10.8967 28.5833 14.6042C28.5833 17.9846 27.3888 21.0854 25.3808 23.5H46.375V46.375H23.5V25.3808C21.0854 27.3888 17.9846 28.5833 14.6042 28.5833C10.8967 28.5833 7.34101 27.1105 4.7194 24.4889C2.0978 21.8673 0.625 18.3117 0.625 14.6042C0.625 10.8967 2.0978 7.34101 4.7194 4.7194C7.34101 2.0978 10.8967 0.625 14.6042 0.625Z"
+                  fill="#2091F9"
+                />
+              </svg>
+            </div>
+            <h3 class="feature__title secondary__title">
+              OpenType features Variable fonts
+            </h3>
+            <p class="feature__txt secondary__txt">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+          <!-- ========== -->
+          <div class="feature flex">
+            <div class="feature__img">
+              <svg
+                width="56"
+                height="57"
+                viewBox="0 0 56 57"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.7486 48.7689C26.902 47.1356 25.992 42.6323 23.892 39.7856C21.8153 36.8689 18.9453 34.8623 16.052 32.9256C13.9876 31.6244 12.1443 30.0018 10.592 28.1189C9.93863 27.3489 8.60863 25.9256 9.96197 25.6456C11.3386 25.3656 13.7186 26.7189 14.932 27.2323C17.0553 28.1189 19.1553 29.1456 21.1153 30.3589L23.472 26.3923C19.832 23.9889 15.1653 21.8656 10.8253 21.2356C8.35197 20.8623 5.73863 21.3756 4.89863 24.0589C4.15197 26.3689 5.34197 28.7023 6.6953 30.5223C9.89197 34.7923 14.862 36.8456 18.572 40.5323C19.3653 41.3023 20.322 42.2123 20.7886 43.2856C21.2786 44.3123 21.162 44.3823 20.0653 44.3823C17.172 44.3823 13.5553 42.1189 11.1986 40.6256L8.84197 44.5923C12.412 46.7856 18.3853 50.2156 22.7486 48.7689ZM48.6253 12.3689C49.1386 11.8556 49.1386 11.0156 48.6253 10.5256L45.592 7.49227C45.3476 7.25673 45.0214 7.12512 44.682 7.12512C44.3425 7.12512 44.0164 7.25673 43.772 7.49227L41.392 9.87226L46.2453 14.7256L48.6253 12.3689ZM25.6653 25.5989V30.4523H30.5186L44.8686 16.1023L40.0153 11.2489L25.6653 25.5989Z"
+                  fill="#2091F9"
+                />
+              </svg>
+            </div>
+            <h3 class="feature__title secondary__title">
+              Design with real data
+            </h3>
+            <p class="feature__txt secondary__txt">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+          <!-- ========== -->
+          <div class="feature flex">
+            <div class="feature__img">
+              <svg
+                width="61"
+                height="61"
+                viewBox="0 0 61 61"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M52.6366 11.7679L49.2308 8.36209C48.2904 7.37084 46.6383 7.37084 45.647 8.36209L22.8737 31.1354L29.8633 38.125L52.6366 15.3517C53.6279 14.3604 53.6279 12.7083 52.6366 11.7679ZM17.7904 35.5833C15.7681 35.5833 13.8286 36.3867 12.3987 37.8167C10.9687 39.2466 10.1654 41.1861 10.1654 43.2083C10.1654 46.5379 7.21703 48.2917 5.08203 48.2917C7.42036 51.3925 11.4362 53.375 15.2487 53.375C17.9451 53.375 20.531 52.3039 22.4376 50.3973C24.3442 48.4906 25.4154 45.9047 25.4154 43.2083C25.4154 41.1861 24.612 39.2466 23.1821 37.8167C21.7521 36.3867 19.8126 35.5833 17.7904 35.5833Z"
+                  fill="#2091F9"
+                />
+              </svg>
+            </div>
+            <h3 class="feature__title secondary__title">Fastest way to</h3>
+            <p class="feature__txt secondary__txt">
+              take action Slate helps you see how many more days you need to
+              work to reach your financial goal.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--
+         ===================
+       video-section
+         ===================
+          -->
+      <section class="video-section">
+        <!-- <video controls>
+          <source src="" type= "./mp4">
+        </video> -->
+        <img src="./image/screen.jpg" alt="video" />
+        <div class="play__icon">
+          <ion-icon name="play"></ion-icon>
+        </div>
+      </section>
+      <!--
+         ===================
+      service-section
+         ===================
+          -->
+      <section class="services">
+        <div class="service grid grid--2--col">
+          <div class="service__description flex">
+            <h2 class="service__title primary__title">
+              Fastest way to organize
+            </h2>
+            <p class="service__txt primary__txt">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </p>
+            <a href="#" class="btn service__btn">Try For Free</a>
+          </div>
+          <div class="service__img">
+            <img src="./image/@ Macbook Pro.jpg" alt="Macbook" />
+          </div>
+        </div>
+        <!-- ========== -->
+        <div class="service grid grid--2--col service__Subscribe">
+          <div class="service__img Subscribe__img">
+            <img src="./image/left-container.jpg" alt="Macbook" />
+          </div>
+          <div class="service__description--2nd flex">
+            <h3 class="secondary__title">At your fingertips</h3>
+            <h2 class="service__title primary__title">
+              Lightning fast prototyping
+            </h2>
+            <h3 class="secondary__title">Subscribe to our Newsletter</h3>
+            <p class="service__txt primary__txt">
+              Available exclusivery on Figmaland
+            </p>
+            <form action="#" class="Subscribe__form flex">
+              <input
+                type="email"
+                name=""
+                id=""
+                required
+                class="inp"
+                placeholder="Your Email "
+              />
+              <button class="form__btn btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--
+         ===================
+     partners-section
+         ===================
+          -->
+      <section class="partners flex">
+        <h2 class="primary__title">Partners</h2>
+        <p class="primary__txt">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div class="items grid grid--4--col">
+          <img src="./image/item1.jpg" alt="item1" />
+          <img src="./image/item2.jpg" alt="item2" />
+          <img src="./image/item3.jpg" alt="item3" />
+          <img src="./image/item4.jpg" alt="item4" />
+          <img src="./image/item5.jpg" alt="item1" />
+          <img src="./image/item1.jpg" alt="item1" />
+          <img src="./image/item2.jpg" alt="item1" />
+          <img src="./image/item3.jpg" alt="item1" />
+        </div>
+        <a href="#" class="items__btn btn">Try For Free</a>
+      </section>
+      <!--
+         ===================
+     Testimonials-section
+         ===================
+          -->
+      <section class="Testimonials flex">
+        <h2 class="primary__title Testimonials__title">Testimonials</h2>
+        <img src="./image/Brands.jpg" alt="brand" class="brand__img" />
+        <p class="secondary__txt Testimonials__txt">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </p>
+        <div class="user flex">
+          <img src="./image/avatar.jpg" alt="user image" />
+          <div>
+            <p class="user-name secondary__txt">Organize across</p>
+            <p class="user-job secondary__txt">Ui designer</p>
+          </div>
+        </div>
+        <a href="#" class="Testimonials__btn btn">Try For Free</a>
+      </section>
+      <!--
+         ===================
+  Pricing-section
+         ===================
+          -->
+      <section class="Pricing-section flex">
+        <h2 class="Pricing__title primary__title">Pricing</h2>
+        <p class="primary__txt Pricing__txt">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div class="cards grid grid--3--col">
+          <!-- ========== -->
+          <div class="card--white card flex">
+            <h4 class="secondary__title card__title">Free</h4>
+            <p class="secondary__txt card__txt">
+              Organize across all apps by hand
+            </p>
+            <div class="price__box flex">
+              <span class="price">0</span>
+              <div>
+                <p class="price-unit">$</p>
+                <p class="secondary__txt">Per Month</p>
+              </div>
+            </div>
+            <ul class="Pricing-Feature">
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+            </ul>
+            <a href="#" class="btn order__btn">Order Now</a>
+          </div>
+          <!-- ========== -->
+          <div class="card--blue card flex">
+            <h4 class="secondary__title card__title">Free</h4>
+            <p class="secondary__txt card__txt">
+              Organize across all apps by hand
+            </p>
+            <div class="price__box flex">
+              <span class="price">10</span>
+              <div>
+                <p class="price-unit">$</p>
+                <p class="secondary__txt price-date">Per Month</p>
+              </div>
+            </div>
+            <ul class="Pricing-Feature">
+              <li>
+                <span class="secondary__txt list__item--blue"
+                  >Pricing Feature</span
+                >
+              </li>
+              <li>
+                <span class="secondary__txt list__item--blue"
+                  >Pricing Feature</span
+                >
+              </li>
+              <li>
+                <span class="secondary__txt list__item--blue"
+                  >Pricing Feature</span
+                >
+              </li>
+              <li>
+                <span class="secondary__txt list__item--blue"
+                  >Pricing Feature</span
+                >
+              </li>
+              <li>
+                <span class="secondary__txt list__item--blue"
+                  >Pricing Feature</span
+                >
+              </li>
+            </ul>
+            <a href="#" class="btn order__btn btn--white">Order Now</a>
+          </div>
+          <!-- ========== -->
+          <div class="card--white card flex">
+            <h4 class="secondary__title card__title">Free</h4>
+            <p class="secondary__txt card__txt">
+              Organize across all apps by hand
+            </p>
+            <div class="price__box flex">
+              <span class="price">99</span>
+              <div>
+                <p class="price-unit">$</p>
+                <p class="secondary__txt">Per Month</p>
+              </div>
+            </div>
+            <ul class="Pricing-Feature">
+              <li class="">
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+              <li>
+                <span class="secondary__txt list__item">Pricing Feature</span>
+              </li>
+            </ul>
+            <a href="#" class="btn order__btn">Order Now</a>
+          </div>
+        </div>
+      </section>
+      <!--
+         ===================
+  Contact-section
+         ===================
+          -->
+      <section class="Contact">
+        <h2 class="primary__title Contact__title">Contact Us</h2>
+        <p class="primary__txt Contact__txt">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div class="info__box flex">
+          <div class="info flex">
+            <ion-icon name="location-outline" class="info__icon"></ion-icon>
+            <a class="info__txt"
+              >6386 Spring St undefined Anchorage, Georgia 12473 United
+              States</a
+            >
+          </div>
+          <!-- ========== -->
+          <div class="info flex">
+            <ion-icon name="call-outline" class="info__icon"></ion-icon>
+            <a href="tel: 555-0130" class="info__txt">(843) 555-0130</a>
+          </div>
+
+          <!-- ========== -->
+          <div class="info flex">
+            <ion-icon name="mail-outline" class="info__icon"></ion-icon>
+            <a href="willie.jennings@example.com" class="info__txt"
+              >willie.jennings@example.com</a
+            >
+          </div>
+        </div>
+
+        <div class="inner-content grid grid--2--col">
+          <div class="form__card flex">
+            <form action="#" class="flex form">
+              <h4 class="secondary__title">Contact Us</h4>
+              <input type="text" placeholder="Your Name" class="form__inp" />
+              <input type="email" placeholder="Your Email" class="form__inp" />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message "
+                class="form__inp textarea"
+              ></textarea>
+              <button class="send__btn btn">Send</button>
+            </form>
+            <div class="contact-icon">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+          </div>
+          <div class="info__contact">
+            <!-- ========== -->
+            <!-- ========== -->
+
+            <div class="map">
+              <iframe
+                width="100%"
+                height="600"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ><a href="https://www.gps.ie/">gps tracker sport</a>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer grid--4--col grid">
+      <!-- =========== -->
+      <nav class="nav-col">
+        <p class="heading-footer secondary__title">Pages</p>
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-nav__link"> Home </a></li>
+          <li><a href="#" class="footer-nav__link"> Product </a></li>
+          <li><a href="#" class="footer-nav__link">Pricing </a></li>
+          <li><a href="#" class="footer-nav__link">About </a></li>
+          <li><a href="#" class="footer-nav__link">Contact </a></li>
+        </ul>
+      </nav>
+      <!-- =========== -->
+      <nav class="nav-col">
+        <p class="heading-footer secondary__title">Tomothy</p>
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-nav__link"> Eleanor Edwards</a></li>
+          <li><a href="#" class="footer-nav__link">Ted Robertson </a></li>
+          <li><a href="#" class="footer-nav__link">Annette Russell </a></li>
+          <li><a href="#" class="footer-nav__link">Jennie Mckinney </a></li>
+          <li><a href="#" class="footer-nav__link">Gloria Richards </a></li>
+        </ul>
+      </nav>
+      <!-- =========== -->
+      <nav class="nav-col">
+        <p class="heading-footer secondary__title">Jane Black</p>
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-nav__link"> Philip Jones </a></li>
+          <li><a href="#" class="footer-nav__link">Product </a></li>
+          <li><a href="#" class="footer-nav__link">Legal</a></li>
+          <li><a href="#" class="footer-nav__link">Colleen Russell </a></li>
+          <li><a href="#" class="footer-nav__link">Marvin Hawkins </a></li>
+        </ul>
+      </nav>
+      <div class="footer__info">
+        <div class="a-1 flex">
+          <ion-icon name="location-outline" class="info__icon"></ion-icon>
+          <a class="info__txt"> 7480 Mockingbird Hill undefined </a>
+        </div>
+        <!-- ========== -->
+        <div class="a-1 flex">
+          <ion-icon name="call-outline" class="info__icon"></ion-icon>
+          <a href="tel: 555-0130" class="info__txt">(239) 555-0108</a>
+        </div>
+        <div class="footer-icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./app.js"></script>
+  </body>
+</html>
